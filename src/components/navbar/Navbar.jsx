@@ -34,7 +34,7 @@ function Navbar() {
                             <img className='hidden slg:block w-9 rounded-lg' src={account} alt="Loading..." />
                         </div>
                         <div className='hamburger slg:hidden'>
-                            <img className='w-9' src={hamburger} alt="Loading..." />
+                            <img className='w-9 cursor-pointer' src={hamburger} alt="Loading..." />
                         </div>
                     </div>
                 </div>
