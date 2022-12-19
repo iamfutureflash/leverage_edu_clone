@@ -5,7 +5,7 @@ import collage_video_bg_3 from '/public/pexels-taryn-elliott-7490428.mp4';
 import list_of_company from '/public/assets/10027.png';
 function Main() {
   return (
-    <div className='herosection w-full h-[100vh] flex  flex-col '>
+    <div className='herosection w-full h-[100vh]  flex  flex-col '>
       <video className='w-full h-[90vh] object-cover relative' src={collage_video_bg_3} autoPlay loop muted />
       <div className='hero-content absolute w-full h-full top-30 flex flex-col gap-4 '>
         <div className='left flex flex-col  items-center  w-[100vw] h-[100vh] px-4 md:items-start md:px-0'>

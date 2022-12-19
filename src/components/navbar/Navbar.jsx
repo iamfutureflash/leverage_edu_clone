@@ -11,8 +11,8 @@ function Navbar() {
                 <div className='row flex justify-between bg-slate-300 py-2 px-1'>
                     <div className="left  py-2 px-2">
                         <div className='logo flex'>
-                            <img src={logo} />
-                            <sup className='hidden mx-2 px-3 py-3 bg-blue-200 w-fit h-fit text-blue-500 rounded-lg shadow-sm font-medium'>We are hiring</sup>
+                            <img className='lg:w-[6rem]' src={logo} />
+                            <sup className=' mx-2 px-3 py-3 bg-blue-200 w-fit h-fit text-blue-500 rounded-lg shadow-sm font-medium'>We are hiring</sup>
                         </div>
                     </div>
                     <div className="right flex space-x-4  items-center px-2 capitalize">
